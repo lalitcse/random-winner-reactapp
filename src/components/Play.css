@@ -1,0 +1,171 @@
+.topnav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    align-content: center;
+}
+
+.dot {
+    height: 75px;
+    width: 75px;
+    background-color: #170A1C;
+    border: 2px solid #F2C14A;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.random_number{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 600;
+    color: #F2C14A;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_area{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.card{
+    margin: 20px;
+    width: 150px;
+    height: 160px;
+    border-radius: 8px;
+    background-color: white;
+    position: relative;
+    padding:10px;
+}
+
+.winner{
+    border: 1.5px solid #005303;
+    width: 160px;
+    height: 170px;
+}
+
+.losser{
+    border: 1.5px solid #AA0000;
+}
+
+.play_footer{
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.back_btn{
+    padding: 10px 24px;
+    color: #F2C14A;
+    border: 1px solid #F2C14A;
+    background-color: #170A1C;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+
+.lose_win_flag{
+    width: 120px;
+    height: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    padding-top: 4px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.win{
+    background-color: #005303;
+}
+
+.lose{
+    background-color: #AA0000;
+}
+
+.main_area{
+    display: flex;
+}
+
+.profile_row{
+    display: flex;
+}
+
+
+.cell-1_{
+    width: 22%;
+  }
+  
+  .cell-2_{
+    width: 78%;
+    padding-left: 20px;
+    padding-top: 6px;
+  }
+  
+
+  
+  .user_img_box img{
+    width: 46px;
+    height: 46px;
+    border-radius: 6px;
+  }
+  
+  .user_name_{
+    padding:0px;
+    margin: 0px;
+    font-size: 13px;
+    color:#10002B;
+    font-weight: 600;
+  }
+  
+  .cell-2 img{
+    width: 14px;
+    padding-top: 10px;
+  }
+  
+  .user_name_text{
+    font-size: 14px;
+    color: #7D788F;
+  }
+  
+  .cell-2 label{
+    margin-right: 8px;
+  }
+  
+  .user_price{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #10002B;
+    margin-top: 12px;
+  }
+  
+  .user_price img{
+    width: 16px;
+  }
+
+  .image_box img{
+    width: 15px;
+    margin-right: 10px;
+  }
+
+  .image_box{
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
